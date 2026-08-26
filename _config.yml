@@ -179,7 +179,7 @@ theme_config:
     custom_text: 'Made with Hexo & Butterfly'
   inject:
     head:
-      - <link rel="stylesheet" href="/css/lunelio-custom.css">
+      - <link rel="stylesheet" href="/css/lunelio-custom.css?v=background-mask-2">
     bottom:
       - <script src="/js/lunelio-custom.js"></script>
 
