@@ -1,38 +1,18 @@
 ---
-title: Hello World
+title: 欢迎来到 lunelio 的博客
+date: 2026-08-26 12:00:00
+description: 这是 lunelio 的个人空间，用来记录正在关注的事物与一路上的思考。
+categories:
+  - 杂谈
+tags:
+  - 随笔
+  - 博客
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+这里是 lunelio 的个人博客。
 
-### Create a new post
+我会在这里记录游戏、阅读、技术实践和日常想法。首页会持续整理最近更新的内容，侧栏则保留分类、标签和归档入口，方便之后慢慢回看。
 
-``` bash
-$ hexo new "My New Post"
-```
+<!-- more -->
 
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+博客刚刚重新整理完成，接下来会从一篇篇小记录开始，逐步填充这里的内容。

@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: lunelio
+subtitle: 记录游戏、阅读、技术与日常
+description: lunelio 的个人博客，记录兴趣、思考与生活。
 keywords:
-author: John Doe
+author: lunelio
 language: zh-CN
 timezone: ''
 
@@ -97,6 +97,80 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
+
+# Butterfly customization. Keep these overrides in the site repo so the theme
+# submodule can be updated without overwriting the site's personal settings.
+theme_config:
+  nav:
+    logo: /img/avatar.jpg
+    display_title: true
+    display_post_title: true
+    fixed: true
+  menu:
+    首页: / || fas fa-home
+    文章: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
+    清单: /lists/ || fas fa-list
+    关于: /about/ || fas fa-heart
+  social:
+    fab fa-github: https://github.com/Lunelio || GitHub || '#24292e'
+  avatar:
+    img: /img/avatar.jpg
+    effect: true
+  disable_top_img: true
+  subtitle:
+    enable: true
+    effect: false
+    source: false
+    sub: 记录游戏、阅读、技术与日常
+  index_layout: 3
+  index_post_content:
+    method: 2
+    length: 300
+  cover:
+    index_enable: false
+    aside_enable: false
+    archives_enable: false
+  aside:
+    enable: true
+    position: right
+    display:
+      archive: true
+      tag: true
+      category: true
+    card_author:
+      enable: true
+      description: 记录游戏、阅读、技术与日常
+      button:
+        enable: true
+        icon: fab fa-github
+        text: GitHub
+        link: https://github.com/Lunelio
+    card_announcement:
+      enable: true
+      content: 欢迎来到 lunelio 的个人博客。
+    card_recent_post:
+      enable: true
+      limit: 5
+    card_newest_comments:
+      enable: false
+    card_categories:
+      enable: true
+    card_tags:
+      enable: true
+    card_archives:
+      enable: true
+    card_webinfo:
+      enable: true
+  footer:
+    owner:
+      enable: true
+      since: 2026
+    copyright:
+      enable: true
+      version: true
+    custom_text: 'Made with Hexo & Butterfly'
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
