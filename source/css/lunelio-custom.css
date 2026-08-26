@@ -1,0 +1,54 @@
+/* lunelio visual customization */
+
+html,
+body {
+  font-family: 'LXGW WenKai', '霞鹜文楷', serif !important;
+}
+
+/* Keep the illustration visible behind the content after the opening screen. */
+#web_bg {
+  filter: saturate(1.08) brightness(.88);
+}
+
+/* Full-screen opening view, inspired by the supplied reference screenshot. */
+#page-header.full_page {
+  background-position: center center;
+}
+
+#page-header.full_page::before {
+  background-color: rgba(24, 28, 70, .46) !important;
+  backdrop-filter: saturate(.9) brightness(.9);
+}
+
+#page-header.full_page #nav {
+  background: rgba(19, 25, 64, .16);
+  backdrop-filter: blur(6px);
+}
+
+#page-header.full_page #nav a,
+#page-header.full_page #nav span.site-page,
+#page-header.full_page #nav .site-name,
+#page-header.full_page #nav #toggle-menu {
+  color: rgba(255, 255, 255, .94) !important;
+}
+
+#page-header.full_page #site-title {
+  font-weight: 400;
+  letter-spacing: .08em;
+  text-shadow: 2px 3px 7px rgba(10, 12, 35, .42);
+}
+
+#page-header.full_page #site-subtitle {
+  color: rgba(255, 255, 255, .9);
+  letter-spacing: .06em;
+  text-shadow: 2px 3px 6px rgba(10, 12, 35, .4);
+}
+
+#page-header.full_page #scroll-down {
+  bottom: 18px;
+}
+
+/* Make the cards readable over the image without hiding the new background. */
+#body-wrap.page #content-inner {
+  background: rgba(248, 249, 255, .12);
+}

@@ -118,7 +118,15 @@ theme_config:
   avatar:
     img: /img/avatar.jpg
     effect: false
-  disable_top_img: true
+  disable_top_img: false
+  default_top_img: /img/lunelio-background.jpeg
+  index_img: /img/lunelio-background.jpeg
+  index_top_img_height: 100vh
+  index_site_info_top: 43%
+  background: /img/lunelio-background.jpeg
+  mask:
+    header: true
+    footer: true
   subtitle:
     enable: true
     effect: false
@@ -128,6 +136,11 @@ theme_config:
   index_post_content:
     method: 2
     length: 300
+  font:
+    font_family: "'LXGW WenKai', '霞鹜文楷', serif"
+  blog_title_font:
+    font_link: https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css
+    font_family: "'LXGW WenKai', '霞鹜文楷', serif"
   cover:
     index_enable: false
     aside_enable: false
@@ -171,6 +184,11 @@ theme_config:
       enable: true
       version: true
     custom_text: 'Made with Hexo & Butterfly'
+  inject:
+    head:
+      - <link rel="stylesheet" href="/css/lunelio-custom.css">
+    bottom:
+      - <script src="/js/lunelio-custom.js"></script>
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
