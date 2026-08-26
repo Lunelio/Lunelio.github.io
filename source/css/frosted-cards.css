@@ -1,0 +1,20 @@
+:root {
+  --card-bg-frosted: rgba(255, 249, 245, 0.65);
+}
+
+[data-theme='dark'] {
+  --card-bg-frosted: rgba(16, 24, 37, 0.65);
+}
+
+#aside-content .card-widget,
+#recent-posts .recent-post-item,
+div#archive,
+div#categories,
+div#category,
+div#page,
+div#post,
+div#tag {
+  background: var(--card-bg-frosted);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}

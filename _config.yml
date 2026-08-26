@@ -179,6 +179,9 @@ theme_config:
       enable: true
       version: true
     custom_text: 'Made with Hexo & Butterfly'
+  inject:
+    head:
+      - <link rel="stylesheet" href="/css/frosted-cards.css">
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
