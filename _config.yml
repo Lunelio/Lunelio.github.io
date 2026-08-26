@@ -182,7 +182,7 @@ theme_config:
     custom_text: 'Made with Hexo & Butterfly'
   inject:
     head:
-      - <link rel="stylesheet" href="/css/frosted-cards.css">
+      - <link rel="stylesheet" href="/css/frosted-cards.css?v=2">
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
