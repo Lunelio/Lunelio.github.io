@@ -18,3 +18,11 @@ div#tag {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
+
+div#archive,
+div#categories,
+div#category,
+div#page,
+div#tag {
+  background: rgba(255, 255, 255, 0.5);
+}
