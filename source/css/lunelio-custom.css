@@ -19,6 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: rgba(116, 108, 138, .4);
+  background-image: none;
   color: rgba(255, 255, 255, .96);
   cursor: pointer;
   font-family: 'LXGW WenKai', '霞鹜文楷', serif;
@@ -80,7 +81,6 @@ body.lunelio-opening-active {
   overflow: hidden;
 }
 
-body.lunelio-opening-active > #web_bg,
 body.lunelio-opening-active > #sidebar,
 body.lunelio-opening-active > #body-wrap,
 body.lunelio-opening-active > #rightside {
