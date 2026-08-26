@@ -118,15 +118,8 @@ theme_config:
   avatar:
     img: /img/avatar.jpg
     effect: false
-  disable_top_img: false
-  default_top_img: /img/lunelio-background.jpeg
-  index_img: /img/lunelio-background.jpeg
-  index_top_img_height: 100vh
-  index_site_info_top: 43%
+  disable_top_img: true
   background: /img/lunelio-background.jpeg
-  mask:
-    header: true
-    footer: true
   subtitle:
     enable: true
     effect: false
