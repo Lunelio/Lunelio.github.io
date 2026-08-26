@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: lunelio
-subtitle: 记录游戏、阅读、技术与日常
+title: 永世隔绝的理想乡
+subtitle: lunelio
 description: lunelio 的个人博客，记录兴趣、思考与生活。
 keywords:
 author: lunelio
@@ -102,10 +102,10 @@ theme: butterfly
 # submodule can be updated without overwriting the site's personal settings.
 theme_config:
   nav:
-    logo: /img/avatar.jpg
+    logo:
     display_title: true
     display_post_title: true
-    fixed: true
+    fixed: false
   menu:
     首页: / || fas fa-home
     文章: /archives/ || fas fa-archive
@@ -118,7 +118,10 @@ theme_config:
   avatar:
     img: /img/avatar.jpg
     effect: false
-  disable_top_img: true
+  disable_top_img: false
+  default_top_img: /img/lunelio-background.jpeg
+  index_img: /img/lunelio-background.jpeg
+  index_top_img_height: 100vh
   background: /img/lunelio-background.jpeg
   subtitle:
     enable: true
@@ -177,11 +180,6 @@ theme_config:
       enable: true
       version: true
     custom_text: 'Made with Hexo & Butterfly'
-  inject:
-    head:
-      - <link rel="stylesheet" href="/css/lunelio-custom.css?v=background-mask-2">
-    bottom:
-      - <script src="/js/lunelio-custom.js"></script>
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
