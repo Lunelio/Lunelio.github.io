@@ -117,7 +117,7 @@ theme_config:
     fab fa-github: https://github.com/Lunelio || GitHub || '#24292e'
   avatar:
     img: /img/avatar.jpg
-    effect: true
+    effect: false
   disable_top_img: true
   subtitle:
     enable: true
